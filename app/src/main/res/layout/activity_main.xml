@@ -6,65 +6,246 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_margin="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/AC"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="AC"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+
+            <Button
+                android:id="@+id/brackets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="( )"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+
+            <Button
+                android:id="@+id/percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="%"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+
+            <Button
+                android:id="@+id/division"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="/"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="7"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="8"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="9"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+
+            <Button
+                android:id="@+id/multiply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="X"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="4"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="5"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="6"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+
+            <Button
+                android:id="@+id/subtraction"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="--"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="1"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="2"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="3"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+
+            <Button
+                android:id="@+id/addition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="+"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/zero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="0"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+
+            <Button
+                android:id="@+id/comma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text=","
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+
+            <Button
+                android:id="@+id/erase"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="<"
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+
+            <Button
+                android:id="@+id/equally"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="="
+                tools:layout_editor_absoluteX="25dp"
+                tools:layout_editor_absoluteY="243dp" />
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/Example"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_margin="5dp"
+        android:text="Example"
+        android:gravity="center|right"
+        app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/History"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:layout_margin="5dp"
+        android:clickable="true"
+        android:gravity="bottom|right"
+        android:text="History"
+        app:layout_constraintBottom_toTopOf="@+id/Example"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/numberInput1"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="24dp"
-        android:hint="Введите первое число"
-        android:inputType="numberDecimal"
-        app:layout_constraintBottom_toTopOf="@+id/numberInput2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/resultText" />
 
-    <EditText
-        android:id="@+id/numberInput2"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginEnd="20dp"
-        android:layout_marginBottom="18dp"
-        android:hint="Введите второе число"
-        android:inputType="numberDecimal"
-        app:layout_constraintBottom_toTopOf="@+id/sumButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/numberInput1" />
-
-    <Button
-        android:id="@+id/sumButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginBottom="383dp"
-        android:text="Суммировать"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/numberInput2" />
-
-    <TextView
-        android:id="@+id/resultText"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="156dp"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/sumButton"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
